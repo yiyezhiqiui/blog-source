@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://github.com/yiyezhiqiui/yiyezhiqiui.github.io/
+url: https://yiyezhiqiui.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -108,3 +108,10 @@ deploy:
 
 aplayer:
   asset_inject: false # 禁止 aplayer 注入资源
+
+markdown:
+  render:
+    html: true          # 允许 HTML 标签
+    breaks: true        # 转换换行符为 <br>
+  plugins:
+    - markdown-it-mathjax3

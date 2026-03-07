@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "kirafont"; /* Project id 5133987 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1772889135831') format('woff2'),
+       url('iconfont.woff?t=1772889135831') format('woff'),
+       url('iconfont.ttf?t=1772889135831') format('truetype');
+}
+
+.kirafont {
+  font-family: "kirafont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-en:before {
+  content: "\e65c";
+}
+
+.icon-RGB:before {
+  content: "\e77e";
+}
+
+.icon-calculate:before {
+  content: "\e6e7";
+}
+
+.icon-a-yemian11:before {
+  content: "\e609";
+}
+
+.icon-likou:before {
+  content: "\e635";
+}
+
+.icon-deepseek:before {
+  content: "\e600";
+}
+

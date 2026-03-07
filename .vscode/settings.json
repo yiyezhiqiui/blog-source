@@ -1,0 +1,21 @@
+{
+    // 启用 LaTeX 补全（用于 markdown）
+    "latex-workshop.intellisense.mathEnv.enabled": true,
+    "latex-workshop.intellisense.symbol.enabled": true,
+    "latex-workshop.intellisense.trigger.latex": ["\\"],
+    "latex-workshop.intellisense.mathEnv.languageIds": ["markdown", "latex"],
+    "latex-workshop.intellisense.mathEnv.surrounding": {
+        "inline": ["$", "\\(", "\\["],
+        "display": ["$$", "\\[", "\\]"]
+    },
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.hover.preview.enabled": true,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "markdown.validate.enabled": true,
+    "markdown.validate.ignoredLinks": [
+        "n"
+    ],
+
+}
